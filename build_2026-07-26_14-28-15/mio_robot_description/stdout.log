@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing mio_robot_description.egg-info/PKG-INFO
+writing dependency_links to mio_robot_description.egg-info/dependency_links.txt
+writing entry points to mio_robot_description.egg-info/entry_points.txt
+writing requirements to mio_robot_description.egg-info/requires.txt
+writing top-level names to mio_robot_description.egg-info/top_level.txt
+reading manifest file 'mio_robot_description.egg-info/SOURCES.txt'
+writing manifest file 'mio_robot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/workspace/install/mio_robot_description/lib/python3.10/site-packages/mio-robot-description.egg-link (link to .)
+Installing move_robot script to /root/workspace/install/mio_robot_description/lib/mio_robot_description
+
+Installed /root/workspace/build/mio_robot_description
+running symlink_data

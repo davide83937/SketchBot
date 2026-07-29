@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.001213] (mio_robot_description) JobQueued: {'identifier': 'mio_robot_description', 'dependencies': OrderedDict()}
+[0.002236] (mio_robot_moveit_config) JobQueued: {'identifier': 'mio_robot_moveit_config', 'dependencies': OrderedDict([('mio_robot_description', '/root/workspace/install/mio_robot_description')])}
+[0.003167] (mio_robot_description) JobStarted: {'identifier': 'mio_robot_description'}
+[0.098131] (-) TimerEvent: {}
+[0.199341] (-) TimerEvent: {}
+[0.300894] (-) TimerEvent: {}
+[0.402667] (-) TimerEvent: {}
+[0.504133] (-) TimerEvent: {}
+[0.605787] (-) TimerEvent: {}
+[0.707259] (-) TimerEvent: {}
+[0.808836] (-) TimerEvent: {}
+[0.910647] (-) TimerEvent: {}
+[1.012355] (-) TimerEvent: {}
+[1.115371] (-) TimerEvent: {}
+[1.216545] (-) TimerEvent: {}
+[1.317830] (-) TimerEvent: {}
+[1.419298] (-) TimerEvent: {}
+[1.520633] (-) TimerEvent: {}
+[1.621922] (-) TimerEvent: {}
+[1.723136] (-) TimerEvent: {}
+[1.824428] (-) TimerEvent: {}
+[1.925645] (-) TimerEvent: {}
+[2.026637] (-) TimerEvent: {}
+[2.128017] (-) TimerEvent: {}
+[2.229622] (-) TimerEvent: {}
+[2.330894] (-) TimerEvent: {}
+[2.432351] (-) TimerEvent: {}
+[2.533772] (-) TimerEvent: {}
+[2.635225] (-) TimerEvent: {}
+[2.736406] (-) TimerEvent: {}
+[2.837691] (-) TimerEvent: {}
+[2.938803] (-) TimerEvent: {}
+[3.040324] (-) TimerEvent: {}
+[3.141506] (-) TimerEvent: {}
+[3.242969] (-) TimerEvent: {}
+[3.344426] (-) TimerEvent: {}
+[3.396845] (mio_robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/workspace/build/mio_robot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/root/workspace/build/mio_robot_description', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/workspace', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/workspace/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/workspace/install/mio_robot_moveit_config:/root/workspace/install/mio_robot_description:/opt/ros/humble', 'PWD': '/root/workspace/build/mio_robot_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/workspace/build/mio_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspace/install/mio_robot_description/lib/python3.10/site-packages:/root/workspace/build/mio_robot_description:/root/workspace/install/mio_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/workspace/install/mio_robot_moveit_config'}, 'shell': False}
+[3.444535] (-) TimerEvent: {}
+[3.545508] (-) TimerEvent: {}
+[3.646921] (-) TimerEvent: {}
+[3.750962] (-) TimerEvent: {}
+[3.853024] (-) TimerEvent: {}
+[3.954342] (-) TimerEvent: {}
+[4.055442] (-) TimerEvent: {}
+[4.156621] (-) TimerEvent: {}
+[4.264447] (-) TimerEvent: {}
+[4.365799] (-) TimerEvent: {}
+[4.467087] (-) TimerEvent: {}
+[4.568609] (-) TimerEvent: {}
+[4.669713] (-) TimerEvent: {}
+[4.770974] (-) TimerEvent: {}
+[4.809649] (mio_robot_description) StdoutLine: {'line': b'running develop\n'}
+[4.871100] (-) TimerEvent: {}
+[4.972373] (-) TimerEvent: {}
+[5.073455] (-) TimerEvent: {}
+[5.174654] (-) TimerEvent: {}
+[5.276264] (-) TimerEvent: {}
+[5.338804] (mio_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.343501] (mio_robot_description) StdoutLine: {'line': b'writing mio_robot_description.egg-info/PKG-INFO\n'}
+[5.351864] (mio_robot_description) StdoutLine: {'line': b'writing dependency_links to mio_robot_description.egg-info/dependency_links.txt\n'}
+[5.358220] (mio_robot_description) StdoutLine: {'line': b'writing entry points to mio_robot_description.egg-info/entry_points.txt\n'}
+[5.363097] (mio_robot_description) StdoutLine: {'line': b'writing requirements to mio_robot_description.egg-info/requires.txt\n'}
+[5.366783] (mio_robot_description) StdoutLine: {'line': b'writing top-level names to mio_robot_description.egg-info/top_level.txt\n'}
+[5.376456] (-) TimerEvent: {}
+[5.463424] (mio_robot_description) StdoutLine: {'line': b"reading manifest file 'mio_robot_description.egg-info/SOURCES.txt'\n"}
+[5.476591] (-) TimerEvent: {}
+[5.567992] (mio_robot_description) StdoutLine: {'line': b"writing manifest file 'mio_robot_description.egg-info/SOURCES.txt'\n"}
+[5.576725] (-) TimerEvent: {}
+[5.586717] (mio_robot_description) StdoutLine: {'line': b'running build_ext\n'}
+[5.590131] (mio_robot_description) StdoutLine: {'line': b'Creating /root/workspace/install/mio_robot_description/lib/python3.10/site-packages/mio-robot-description.egg-link (link to .)\n'}
+[5.613819] (mio_robot_description) StdoutLine: {'line': b'Installing move_robot script to /root/workspace/install/mio_robot_description/lib/mio_robot_description\n'}
+[5.640367] (mio_robot_description) StdoutLine: {'line': b'\n'}
+[5.643296] (mio_robot_description) StdoutLine: {'line': b'Installed /root/workspace/build/mio_robot_description\n'}
+[5.646674] (mio_robot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[5.676936] (-) TimerEvent: {}
+[5.778539] (-) TimerEvent: {}
+[5.781029] (mio_robot_description) CommandEnded: {'returncode': 0}
+[5.878686] (-) TimerEvent: {}
+[5.979802] (-) TimerEvent: {}
+[6.080972] (-) TimerEvent: {}
+[6.182158] (-) TimerEvent: {}
+[6.197573] (mio_robot_description) JobEnded: {'identifier': 'mio_robot_description', 'rc': 0}
+[6.213363] (mio_robot_moveit_config) JobStarted: {'identifier': 'mio_robot_moveit_config'}
+[6.282359] (-) TimerEvent: {}
+[6.366544] (mio_robot_moveit_config) JobProgress: {'identifier': 'mio_robot_moveit_config', 'progress': 'cmake'}
+[6.382507] (-) TimerEvent: {}
+[6.404916] (mio_robot_moveit_config) JobProgress: {'identifier': 'mio_robot_moveit_config', 'progress': 'build'}
+[6.416508] (mio_robot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/workspace/build/mio_robot_moveit_config', '--', '-j8', '-l8'], 'cwd': '/root/workspace/build/mio_robot_moveit_config', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/workspace'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/workspace/install/mio_robot_description:/root/workspace/install/mio_robot_moveit_config:/opt/ros/humble'), ('PWD', '/root/workspace/build/mio_robot_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/workspace/build/mio_robot_description:/root/workspace/install/mio_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/workspace/install/mio_robot_moveit_config:/root/workspace/install/mio_robot_description:/opt/ros/humble')]), 'shell': False}
+[6.482683] (-) TimerEvent: {}
+[6.583861] (-) TimerEvent: {}
+[6.592151] (mio_robot_moveit_config) CommandEnded: {'returncode': 0}
+[6.613239] (mio_robot_moveit_config) JobProgress: {'identifier': 'mio_robot_moveit_config', 'progress': 'install'}
+[6.638619] (mio_robot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/workspace/build/mio_robot_moveit_config'], 'cwd': '/root/workspace/build/mio_robot_moveit_config', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/workspace'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/workspace/install/mio_robot_description:/root/workspace/install/mio_robot_moveit_config:/opt/ros/humble'), ('PWD', '/root/workspace/build/mio_robot_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/workspace/build/mio_robot_description:/root/workspace/install/mio_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/workspace/install/mio_robot_moveit_config:/root/workspace/install/mio_robot_description:/opt/ros/humble')]), 'shell': False}
+[6.660082] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.675431] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.683977] (-) TimerEvent: {}
+[6.785085] (-) TimerEvent: {}
+[6.809764] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/demo.launch.py\n'}
+[6.847029] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/move_group.launch.py\n'}
+[6.883377] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/moveit_rviz.launch.py\n'}
+[6.886259] (-) TimerEvent: {}
+[6.921065] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/rsp.launch.py\n'}
+[6.958363] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/setup_assistant.launch.py\n'}
+[6.986453] (-) TimerEvent: {}
+[6.997258] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/spawn_controllers.launch.py\n'}
+[7.031815] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[7.068062] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/warehouse_db.launch.py\n'}
+[7.086617] (-) TimerEvent: {}
+[7.168549] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/first.srdf\n'}
+[7.186801] (-) TimerEvent: {}
+[7.212267] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/joint_limits.yaml\n'}
+[7.247630] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/kinematics.yaml\n'}
+[7.284091] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/moveit.rviz\n'}
+[7.287424] (-) TimerEvent: {}
+[7.322828] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[7.353524] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/.setup_assistant\n'}
+[7.387626] (-) TimerEvent: {}
+[7.411238] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mio_robot_moveit_config\n'}
+[7.468786] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mio_robot_moveit_config\n'}
+[7.487795] (-) TimerEvent: {}
+[7.494744] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/ament_prefix_path.sh\n'}
+[7.523998] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/ament_prefix_path.dsv\n'}
+[7.549201] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/path.sh\n'}
+[7.580709] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/path.dsv\n'}
+[7.587925] (-) TimerEvent: {}
+[7.607967] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.bash\n'}
+[7.631561] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.sh\n'}
+[7.656234] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.zsh\n'}
+[7.682227] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.dsv\n'}
+[7.688026] (-) TimerEvent: {}
+[7.697262] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/package.dsv\n'}
+[7.788162] (-) TimerEvent: {}
+[7.801103] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/ament_index/resource_index/packages/mio_robot_moveit_config\n'}
+[7.831718] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/cmake/mio_robot_moveit_configConfig.cmake\n'}
+[7.856867] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/cmake/mio_robot_moveit_configConfig-version.cmake\n'}
+[7.886314] (mio_robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/package.xml\n'}
+[7.889027] (-) TimerEvent: {}
+[7.893941] (mio_robot_moveit_config) CommandEnded: {'returncode': 0}
+[7.989167] (-) TimerEvent: {}
+[8.094560] (-) TimerEvent: {}
+[8.195593] (-) TimerEvent: {}
+[8.296688] (-) TimerEvent: {}
+[8.397833] (-) TimerEvent: {}
+[8.499290] (-) TimerEvent: {}
+[8.604360] (-) TimerEvent: {}
+[8.705479] (-) TimerEvent: {}
+[8.806774] (-) TimerEvent: {}
+[8.820307] (mio_robot_moveit_config) JobEnded: {'identifier': 'mio_robot_moveit_config', 'rc': 0}
+[8.838861] (-) EventReactorShutdown: {}

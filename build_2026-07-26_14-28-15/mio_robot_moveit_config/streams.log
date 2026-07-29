@@ -1,0 +1,35 @@
+[0.224s] Invoking command in '/root/workspace/build/mio_robot_moveit_config': AMENT_PREFIX_PATH=/root/workspace/install/mio_robot_description:/root/workspace/install/mio_robot_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/install/mio_robot_description:/opt/ros/humble /usr/bin/cmake --build /root/workspace/build/mio_robot_moveit_config -- -j8 -l8
+[0.380s] Invoked command in '/root/workspace/build/mio_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/workspace/install/mio_robot_description:/root/workspace/install/mio_robot_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/install/mio_robot_description:/opt/ros/humble /usr/bin/cmake --build /root/workspace/build/mio_robot_moveit_config -- -j8 -l8
+[0.426s] Invoking command in '/root/workspace/build/mio_robot_moveit_config': AMENT_PREFIX_PATH=/root/workspace/install/mio_robot_description:/root/workspace/install/mio_robot_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/install/mio_robot_description:/opt/ros/humble /usr/bin/cmake --install /root/workspace/build/mio_robot_moveit_config
+[0.449s] -- Install configuration: ""
+[0.463s] -- Execute custom install script
+[0.597s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/demo.launch.py
+[0.634s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/move_group.launch.py
+[0.671s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/moveit_rviz.launch.py
+[0.709s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/rsp.launch.py
+[0.747s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/setup_assistant.launch.py
+[0.785s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/spawn_controllers.launch.py
+[0.820s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.856s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/launch/warehouse_db.launch.py
+[0.956s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/first.srdf
+[0.999s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/joint_limits.yaml
+[1.035s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/kinematics.yaml
+[1.072s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/moveit.rviz
+[1.110s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/config/pilz_cartesian_limits.yaml
+[1.141s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/.setup_assistant
+[1.199s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mio_robot_moveit_config
+[1.256s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mio_robot_moveit_config
+[1.282s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/ament_prefix_path.sh
+[1.311s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/ament_prefix_path.dsv
+[1.336s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/path.sh
+[1.368s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/environment/path.dsv
+[1.395s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.bash
+[1.419s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.sh
+[1.443s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.zsh
+[1.470s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/local_setup.dsv
+[1.485s] -- Symlinking: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/package.dsv
+[1.588s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/ament_index/resource_index/packages/mio_robot_moveit_config
+[1.620s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/cmake/mio_robot_moveit_configConfig.cmake
+[1.644s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/cmake/mio_robot_moveit_configConfig-version.cmake
+[1.674s] -- Up-to-date symlink: /root/workspace/install/mio_robot_moveit_config/share/mio_robot_moveit_config/package.xml
+[1.681s] Invoked command in '/root/workspace/build/mio_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/workspace/install/mio_robot_description:/root/workspace/install/mio_robot_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspace/install/mio_robot_description:/opt/ros/humble /usr/bin/cmake --install /root/workspace/build/mio_robot_moveit_config
