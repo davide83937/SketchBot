@@ -1,0 +1,3 @@
+[console_scripts]
+move_robot = mio_robot_description.move_robot:main
+

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+mio_robot_description/__init__.py
+mio_robot_description/check_pose.py
+mio_robot_description/move_robot.py
+mio_robot_description/test.py
+mio_robot_description.egg-info/PKG-INFO
+mio_robot_description.egg-info/SOURCES.txt
+mio_robot_description.egg-info/dependency_links.txt
+mio_robot_description.egg-info/entry_points.txt
+mio_robot_description.egg-info/requires.txt
+mio_robot_description.egg-info/top_level.txt
+mio_robot_description.egg-info/zip-safe
+resource/mio_robot_description
+urdf/robot_prova.urdf
