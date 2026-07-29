@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  ros2_fastapi_server:
+    build:
+      context: .
+      dockerfile: mio_robot_description/Dockerfile
+
+    container_name: ros2_fastapi_container
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - .:/ros2_ws/src
+
+      # Socket Wayland
+      - /run/user/1000:/run/user/1000
+
+      # Socket X11 (compatibilità con alcune app Qt)
+      - /tmp/.X11-unix:/tmp/.X11-unix
+
+    environment:
+      - DISPLAY=:0
+      - WAYLAND_DISPLAY=wayland-0
+      - XDG_RUNTIME_DIR=/run/user/1000
+      - QT_X11_NO_MITSHM=1

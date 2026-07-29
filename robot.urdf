@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<robot name="pen_arm">
+
+  <!-- MATERIALI -->
+  <material name="blue">
+    <color rgba="0 0.3 1 1"/>
+  </material>
+
+  <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
+
+  <material name="red">
+    <color rgba="1 0 0 1"/><?xml version="1.0"?>
+<robot name="pen_arm">
+
+  <!-- MATERIALI -->
+  <material name="blue">
+    <color rgba="0 0.3 1 1"/>
+  </material>
+
+  <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
+
+  <material name="red">
+    <color rgba="1 0 0 1"/>
+  </material>
+
+
+  <!-- BASE -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.03"/>
+      </geometry>
+      <origin xyz="0 0 0.015"/>
+      <material name="gray"/>
+    </visual>
+  </link>
+
+
+  <!-- JOINT BASE ROTATIVA -->
+  <joint name="base_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="vertical_link"/>
+
+    <origin xyz="0 0 0.03" rpy="0 0 0"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit 
+      lower="1.2217"
+      upper="2.2689"
+      effort="5"
+      velocity="2"/>
+  </joint>
+
+
+  <!-- PRIMO LINK 6 cm VERTICALE -->
+  <link name="vertical_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.015" length="0.06"/>
+      </geometry>
+      <origin xyz="0 0 0.03"/>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+
+  <!-- GIUNTO 1 -->
+  <joint name="joint1" type="revolute">
+
+    <parent link="vertical_link"/>
+    <child link="link1"/>
+
+    <origin xyz="0 0 0.06" rpy="0 0 0"/>
+
+    <axis xyz="0 1 0"/>
+
+    <limit
+      lower="0.6981"
+      upper="1.2217"
+      effort="5"
+      velocity="2"/>
+
+  </joint>
+
+
+  <!-- LINK 9.5 cm -->
+  <link name="link1">
+
+    <visual>
+      <geometry>
+        <box size="0.095 0.02 0.02"/>
+      </geometry>
+
+      <origin xyz="0.0475 0 0"/>
+
+      <material name="blue"/>
+
+    </visual>
+
+  </link>
+
+
+  <!-- GIUNTO 2 -->
+  <joint name="joint2" type="revolute">
+
+    <parent link="link1"/>
+    <child link="link2"/>
+
+    <origin xyz="0.095 0 0" rpy="0 0 0"/>
+
+    <axis xyz="0 1 0"/>
+
+    <limit
+      lower="0"
+      upper="0.8727"
+      effort="5"
+      velocity="2"/>
+
+  </joint>
+
+
+  <!-- LINK 12.5 cm -->
+  <link name="link2">
+
+    <visual>
+
+      <geometry>
+        <box size="0.125 0.02 0.02"/>
+      </geometry>
+
+      <origin xyz="0.0625 0 0"/>
+
+      <material name="blue"/>
+
+    </visual>
+
+  </link>
+
+
+
+  <!-- GIUNTO 3 -->
+  <joint name="joint3" type="revolute">
+
+    <parent link="link2"/>
+    <child link="pen_holder"/>
+
+    <origin xyz="0.125 0 0" rpy="0 0 0"/>
+
+    <axis xyz="0 1 0"/>
+
+    <limit
+      lower="0"
+      upper="1.5708"
+      effort="3"
+      velocity="2"/>
+
+  </joint>
+
+
+
+  <!-- PORTA PENNA -->
+  <link name="pen_holder">
+
+    <visual>
+
+      <geometry>
+        <cylinder radius="0.008" length="0.075"/>
+      </geometry>
+
+      <origin xyz="0.0375 0 0"
+              rpy="0 1.5708 0"/>
+
+      <material name="red"/>
+
+    </visual>
+
+  </link>
+
+
+</robot>
+  </material>
+
+
+  <!-- BASE -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.03"/>
+      </geometry>
+      <origin xyz="0 0 0.015"/>
+      <material name="gray"/>
+    </visual>
+  </link>
+
+
+  <!-- JOINT BASE ROTATIVA -->
+  <joint name="base_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="vertical_link"/>
+
+    <origin xyz="0 0 0.03" rpy="0 0 0"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit 
+      lower="1.2217"
+      upper="2.2689"
+      effort="5"
+      velocity="2"/>
+  </joint>
+
+
+  <!-- PRIMO LINK 6 cm VERTICALE -->
+  <link name="vertical_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.015" length="0.06"/>
+      </geometry>
+      <origin xyz="0 0 0.03"/>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+
+  <!-- GIUNTO 1 -->
+  <joint name="joint1" type="revolute">
+
+    <parent link="vertical_link"/>
+    <child link="link1"/>
+
+    <origin xyz="0 0 0.06" rpy="0 0 0"/>
+
+    <axis xyz="0 1 0"/>
+
+    <limit
+      lower="0.6981"
+      upper="1.2217"
+      effort="5"
+      velocity="2"/>
+
+  </joint>
+
+
+  <!-- LINK 9.5 cm -->
+  <link name="link1">
+
+    <visual>
+      <geometry>
+        <box size="0.095 0.02 0.02"/>
+      </geometry>
+
+      <origin xyz="0.0475 0 0"/>
+
+      <material name="blue"/>
+
+    </visual>
+
+  </link>
+
+
+  <!-- GIUNTO 2 -->
+  <joint name="joint2" type="revolute">
+
+    <parent link="link1"/>
+    <child link="link2"/>
+
+    <origin xyz="0.095 0 0" rpy="0 0 0"/>
+
+    <axis xyz="0 1 0"/>
+
+    <limit
+      lower="0"
+      upper="0.8727"
+      effort="5"
+      velocity="2"/>
+
+  </joint>
+
+
+  <!-- LINK 12.5 cm -->
+  <link name="link2">
+
+    <visual>
+
+      <geometry>
+        <box size="0.125 0.02 0.02"/>
+      </geometry>
+
+      <origin xyz="0.0625 0 0"/>
+
+      <material name="blue"/>
+
+    </visual>
+
+  </link>
+
+
+
+  <!-- GIUNTO 3 -->
+  <joint name="joint3" type="revolute">
+
+    <parent link="link2"/>
+    <child link="pen_holder"/>
+
+    <origin xyz="0.125 0 0" rpy="0 0 0"/>
+
+    <axis xyz="0 1 0"/>
+
+    <limit
+      lower="0"
+      upper="1.5708"
+      effort="3"
+      velocity="2"/>
+
+  </joint>
+
+
+
+  <!-- PORTA PENNA -->
+  <link name="pen_holder">
+
+    <visual>
+
+      <geometry>
+        <cylinder radius="0.008" length="0.075"/>
+      </geometry>
+
+      <origin xyz="0.0375 0 0"
+              rpy="0 1.5708 0"/>
+
+      <material name="red"/>
+
+    </visual>
+
+  </link>
+
+
+</robot>
